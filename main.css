@@ -1,0 +1,87 @@
+html {
+  font-family: 'bangers', cursive;
+  background-color: #13263a;
+}
+h1 {
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+}
+h2 {
+  padding: 10px;
+  font-size: 25px;
+  color: white;
+}
+h6 {
+  color: white;
+}
+p {
+  color: #13263a;
+  display: inline;
+  padding: 1px;
+  font-size: 0.0001px;
+}
+#clearboard {
+  margin: 0 auto;
+  background-color: #1E90FF;
+  height: 40px;
+  width: 300px;
+  text-align: center;
+  margin-top: 30px;
+  border: 3px solid white;
+  color: white;
+}
+#instructions {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 35px;
+  margin-top: 40px;
+  color: white;
+}
+#gameboard {
+  height: 350px;
+  width: 350px;
+  margin: 0 auto;
+  margin-top: 80px;
+  font-size: 0;
+}
+#cell1 {
+  border-bottom: 3px solid white;
+  border-right: 3px solid white;
+}
+#cell2 {
+  border-bottom: 3px solid white;
+  border-right: 3px solid white;
+}
+#cell3 {
+  border-bottom: 3px solid white;
+}
+#cell4 {
+  border-bottom: 3px solid white;
+  border-right: 3px solid white;
+}
+#cell5 {
+  border-bottom: 3px solid white;
+  border-right: 3px solid white;
+}
+#cell6 {
+  border-bottom: 3px solid white;
+}
+#cell7 {
+  border-right: 3px solid white;
+}
+#cell8 {
+  border-right: 3px solid white;
+}
+.cell {
+  height: 30%;
+  width: 30%;
+  display: inline-block;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 40px;
+  background-color: red;
+  padding-left: 8px;
+}
