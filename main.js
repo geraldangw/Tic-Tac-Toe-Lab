@@ -12,6 +12,7 @@ function gamePlay() {
 gamePlay();
 
 function addChoice() {
+  if(event.target.innerHTML === " <p> </p>") {
   if (turn % 2 === 0) {
     event.target.innerHTML = "<h6> X </h6>";
     document.getElementById('instructions').innerHTML = "O's Turn";
@@ -27,6 +28,10 @@ function addChoice() {
     playerOchoices.push(event.target.id);
     checkWinO();
   }
+}
+else {
+  document.getElementById('instructions').innerHTML = "Please select an empty box!";
+}
 }
 
 function checkWinX() {
