@@ -1,16 +1,17 @@
 html {
   font-family: 'bangers', cursive;
   background-color: #13263a;
+  font-size: 100%
 }
 h1 {
-  font-size: 50px;
+  font-size: 3em;
   color: white;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 5%;
 }
 h2 {
   padding: 10px;
-  font-size: 25px;
+  font-size: 2em;
   color: white;
 }
 h6 {
@@ -25,25 +26,25 @@ p {
 #clearboard {
   margin: 0 auto;
   background-color: #1E90FF;
-  height: 40px;
-  width: 300px;
+  width: 30%;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 2%;
   border: 3px solid white;
   color: white;
 }
 #instructions {
   text-align: center;
   margin: 0 auto;
-  font-size: 35px;
-  margin-top: 40px;
+  font-size: 2em;
+  margin-top: 2%;
   color: white;
 }
 #gameboard {
-  height: 350px;
-  width: 350px;
+  height: 500px;
+  width: 100%;
+  max-width: 600px;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 2%;
   font-size: 0;
 }
 #cell1 {
@@ -75,13 +76,15 @@ p {
   border-right: 3px solid white;
 }
 .cell {
-  height: 30%;
-  width: 30%;
+  height: 33%;
+  width: 33%;
+  max-width: 200px;
   display: inline-block;
   color: white;
-  font-size: 50px;
+  font-size: 60px;
   text-align: center;
-  padding-top: 40px;
+  padding-top: 35px;
   background-color: red;
   padding-left: 8px;
+  box-sizing: border-box;
 }
